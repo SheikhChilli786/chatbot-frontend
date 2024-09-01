@@ -35,7 +35,6 @@ const generateResponse = async (chatElement,message) => {
     body: JSON.stringify({
       message: message
     }),
-    credentials: 'include' // Include cookies with the request
   };
 
   // Send POST request to API, get response and set the response as paragraph text
